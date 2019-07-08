@@ -7,7 +7,7 @@ Hillslope creep is a _diffusive_ process, meaning that it works to reduce gradie
 In the case of the landscape, the gradient is the elevation, and so creep works to change steep slopes (i.e., large gradients in elevation) into smooth and gradual gradients or eventually even no gradient at all (i.e., a flat landscape).
 So creep works to smooth landscapes over time.
 
-![A landscape that has been subject to hillslope creep. Credit Dan Hobley.](figures/hillslope_creep.jpeg)
+![A landscape that has been subject to hillslope creep. Credit Dan Hobley.](./private/hillslope_creep.jpeg)
 
 
 ## The numerical model
@@ -19,7 +19,7 @@ The diffusive process of hillslope creep can be modeled as:
 $$\frac{\partial z}{\partial t} = \frac{\partial}{\partial x} \left( -K \frac{\partial z}{\partial x} \right)$$
 where ($-K(\partial z/\partial x)$) is defined to be the sediment flux down the hillslope ($q_s$), $t$ is time, and $K$ is a diffusivity coefficient, which relates the slope to sediment flux.
 
-![Schematic representation of a hillslope, discretized to show how the hillslope is evolved by sediment flux calculations. See text for explanation.](figures/hillslope_drawing.png)
+![Schematic representation of a hillslope, discretized to show how the hillslope is evolved by sediment flux calculations. See text for explanation.](./private/hillslope_drawing.png)
 
 This equation can be explained in words as: the change in elevation ($z$) over time $t$ is equivalent to the divergence in sediment flux ($q_s$) down the hillslope ($x$).
 
